@@ -27,7 +27,6 @@ const images = [
 
 
 const list = document.querySelector(".gallery");
-console.log(list);
 
 const createGallery = (images) => {
   return images.map(image => 
@@ -42,5 +41,4 @@ list.style.flexWrap = "wrap";
 list.style.gap = "48px 24px";
 
 const img = document.querySelector(".item-galerry");
-console.log(img);
 
